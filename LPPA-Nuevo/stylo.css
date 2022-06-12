@@ -1,0 +1,44 @@
+button{
+ 
+
+    width: 100px;
+     background-color: hsl(200deg 100% 37%);;
+     color: white;
+     padding:  10px;
+     
+   
+  }
+  
+  fieldset
+  {
+  
+      margin:  auto;
+    width:  25%;
+    background-color: hsl(60deg 6% 97%);;
+      text-align: left;
+  
+  
+  
+  }
+  .g ,.h ,.j{
+color: grey;
+
+  }
+
+  .res{
+    width:  80%;
+    padding:  10px;
+
+  }
+  .columna{ 
+    width: 27%;
+   margin: auto;
+   text-align: left;
+   padding: 2%;
+   display: none;
+   
+  }
+  .div{
+    padding: 1%;
+    
+  }

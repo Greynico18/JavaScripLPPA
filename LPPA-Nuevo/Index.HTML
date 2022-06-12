@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script  src="Scrip.js"></script>
+    <link rel="stylesheet" href="stylo.css">
+    <title>peso</title>
+</head>
+<body>
+ <fieldset > 
+    
+<p><strong> Para calcular si indice  de masa corporal , ingrese su estatura  y peso. </strong> </p>
+
+<p class="g" >Sistema metrico</p>
+
+<p><STRong> ESTATURA  </STRong> </p>
+
+<P class="h">en centrimetros:</P>
+
+<P>  <input id="m" type="text" name="textinput">  </P>  
+
+<p><STRong> PESO  </STRong> </p>
+
+
+<P class="j">en kilogramos:</P>
+
+<P> <input id="kg"  type="text" name="textinput">   </P>
+
+
+<button call ="btn" id="btn" name="Boton Calcular"
+onclick="calcular (document.getElementById('kg').value , document.getElementById('m').value);" >Calcular</button>
+
+
+<p>Resultado   <SPan>  <input  id="resultado" , class="res" type="text"  onclick="mostrar()" > </SPan> </p>  
+
+
+</fieldset>  
+<div class="div">
+
+    <table class="columna" id="col" onclick="calcular()">
+<TR >
+<th>Composicion corporal </th>
+<th>Indice de masa corporal (IMC)</th>
+</TR>
+<tr>
+<td>Peso inferior al normal</td>
+<td>Menos de 18.5</td>
+</tr>
+<tr>
+<td>Peso normal</td>
+ <td>18.5 - 24.9</td>
+ </tr>
+ <tr>
+    <td>Peso superior al normal</td>
+     <td>25.0 - 29.9</td>
+ </tr>
+ <tr>
+    <td>Obesidad</td>
+     <td>mas de 30.0</td>
+ </tr>
+</table>
+
+
+</div>
+
+</body>
+</html>
+
+
